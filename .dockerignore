@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.parcel-cache/
+.cache/
+.git/
+.github/
+*.md
+*.log
+.DS_Store
+.env
+.htmlhintrc
+.stylelintrc.json
