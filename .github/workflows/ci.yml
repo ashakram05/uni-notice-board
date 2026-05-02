@@ -101,19 +101,11 @@ jobs:
             type=sha,prefix=sha-
             type=raw,value=latest,enable=${{ github.ref == 'refs/heads/develop' }}
 
-      - name: 🔨 Step 5 - Build Docker Image
+  
+      - name: 🚀 Build & Push Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: .
-          push: false
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
-
-      - name: 🚀 Step 6 - Push Docker Image to Docker Hub
-        uses: docker/build-push-action@v5
-        with:
-          context: .
+          context:.
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          
