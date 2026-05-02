@@ -226,15 +226,6 @@ The following secrets must be added in GitHub → Settings → Secrets → Actio
 
 ---
 
-## 👥 Team
-
-| Role | Responsibility |
-|------|---------------|
-| Team Lead | Repository setup, index.html, branch protection, merging PRs |
-| Member | notices.html, exams.html, admissions.html, contact.html |
-
----
-
 ## 📄 License
 
 This project is for academic purposes only — COMSATS University Islamabad, Lahore Campus.
